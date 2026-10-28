@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+
+<html lang="es">
+
+<head>
+
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Recuperatorio primer parcial Programacion 3</title>
+    <link rel = "stylesheet" href = "styles.css">
+    <script defer src = "index.js"></script>
+
+</head>
+
+<body>
+
+    <header>
+
+        <h1>Parcial 1 Div 132</h1>
+
+    </header>
+
+    <main>
+
+        <div id = "catalogo">
+
+            <div id = "titulo-carrito">
+
+                <h2 id = "burger-house" >Burger House</h2>
+                <p id = "contador-carrito">Carrito (0)</p>
+
+            </div>
+
+            <hr>
+
+            <div id = "fila-filtros">
+
+                <div id = "filtros">
+
+                <input type = "radio" id = "todas" name = "categoria" value = "todas" checked>
+                <label for = "todas">Todas</label>
+
+                <input type = "radio" id = "clasicas" name = "categoria" value = "clasicas">
+                <label for = "clasicas">Clasicas</label>
+
+                <input type = "radio" id = "especiales" name = "categoria" value = "especiales">
+                <label for = "especiales">Especiales</label>
+
+                <input type = "radio" id = "combos" name = "categoria" value = "combos">
+                <label for = "combos">Combos</label>
+
+                </div>
+
+                <input type = "text" id = "buscar-productos" placeholder = "Buscar Productos">
+
+            </div>
+
+            <select id = "ordenar-precio">
+
+                <option value = "ordenar">Ordenar por precio</option>
+                <option value = "menor">Menor precio</option>
+                <option value = "mayor">Mayor precio</option>
+
+            </select>
+
+            <section id = "products-container"></section>
+
+        </div>
+
+        <aside>
+
+            <h3>Mi carrito</h3>
+            <ul id = "cart-list"></ul>
+            <p id = "cart-total">Total: $0</p>
+            <button id = "vaciar-carrito">VACIAR CARRITO</button>
+
+        </aside>
+
+    </main>
+
+    <footer>
+
+        <p>Agustin Ariel Navarro</p>
+
+    </footer>
+
+</body>
+</html>
